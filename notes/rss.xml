@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="fr"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="https://fr.josecuevas.xyz/notes/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="https://fr.josecuevas.xyz/notes/rss.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+            
+                
+            
+                
+                    <link href="https://josecuevas.xyz/notes/rss.xml" hreflang="es" rel="alternate" type="application/rss+xml"/>
+                
+            
+        
+            
+                
+            
+                
+                    <link href="https://en.josecuevas.xyz/notes/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+                
+            
+        
+
+        
+            <copyright>© José Cuevas</copyright>
+        
+
+        <description>Documents personels pour l'utilité général</description>
+
+        
+            <language>fr</language>
+        
+
+        
+
+        <link>https://fr.josecuevas.xyz/notes/</link>
+
+        
+
+        <title>Exposés · José Cuevas</title>
+
+        
+
+        
+    </channel>
+</rss>
