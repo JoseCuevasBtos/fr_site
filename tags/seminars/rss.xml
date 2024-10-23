@@ -128,7 +128,8 @@
 sur la conjecture $abc$ et ses thèmes
 connexes</a>, avec quelques
 indications sur la littérature de référence. Les présentations originales, plus
-détaillées, sont en espagnol, mais la plupart des références sont en anglais.</p>
+détaillées, sont en espagnol, mais les références sont en anglais et en
+français.</p>
 <p><strong>Remerciements aux orateurs :</strong>
 Les présentations ont été faites par Matías
 Alvarado, Francisco Gallardo, Ignacio Henríquez, Héctor Pastén et Rocío
@@ -143,9 +144,9 @@ Fixons une constante $\kappa &gt; 1$. Pour tout triplet $(a, b, c)$ des nombres
 premiers entre eux, avec $a + b = c$, la majoration suivante est satisfaite :
 $$ \max\{ |a|, |b|, |c| \} \ll_\kappa \operatorname{Rad}(abc)^\kappa. $$</p>
 </blockquote>
-<p>Ici, $\operatorname{Rad}(n)$ désigne le produit des facteurs premiers $p \mid
-n$ avec multiplicité un ; il coïncide avec la définition du radiciel d&rsquo;un idéal
-dans l&rsquo;Algèbre commutative.
+<p>Ci-dessus, $\operatorname{Rad}(n)$ désigne le produit des facteurs premiers $p
+\mid n$ avec multiplicité un ; il coïncide avec la définition du radiciel d&rsquo;un
+idéal dans l&rsquo;Algèbre commutative.
 Pour de nombreuses applications, on a besoin que l&rsquo;énoncé soit vérifié pour un
 exposant fixé $\kappa$, auquel cas on dira que la conjecture $abc$ faible est
 satisfaite pour l&rsquo;exposant $\kappa$.
@@ -155,8 +156,9 @@ Le cas $\kappa = 1$ est faux.</p>
 conjecture de Szpiro sur les courbes elliptiques.
 La conjecture $abc$ est plus connue car, si elle est vraie, elle implique de
 nombreux problèmes difficiles de géométrie diophantienne : quelques exemples
-sont le dernier théorème de Fermat, la conjecture (asymptotique) de Catalan, la
-conjecture de Pillai, la conjecture d&rsquo;Erdős-Woods, et d&rsquo;autres.</p>
+sont le dernier théorème de Fermat, la conjecture (asymptotique) de Catalan
+(maintenant théorème par Mihăilescu), la conjecture de Pillai, la conjecture
+d&rsquo;Erdős-Woods, et d&rsquo;autres.</p>
 <h3 id="stratégies">Stratégies</h3>
 <p>Voici quelques stratégies en direction de la conjecture $abc$ (la liste n&rsquo;est
 pas exhaustive) :</p>
@@ -183,7 +185,7 @@ hauteurs de Faltings.</li>
 <h2 id="les-courbes-elliptiques">Les courbes elliptiques</h2>
 <h3 id="définitions-et-invariants">Définitions et invariants</h3>
 <p><strong>Définition. &ndash;</strong>
-Une <em>courbe elliptique</em> $E$ sur un corps $K$ est une courbe régulière isomorphe à
+Une <em>courbe elliptique</em> $E$ sur un corps $K$ est une courbe régulière isomorphe
 à la clôture projective d&rsquo;une courbe plane donnée par une équation de
 Weierstrass :
 $$ y^2 + a_1xy + a_3y = x^3 + a_2x^2 + a_4x + a_6,
@@ -240,7 +242,7 @@ rationnel $o \in X(K)$ et a un genre un.</li>
 </blockquote>
 <p>Aussi, il est facile de vérifier la :</p>
 <p><strong>Proposition. &ndash;</strong> L&rsquo;invariant $j$ définit une fonction $j \colon
-\mathscr{A}_1(K) \to K$ surjectif, où $\mathscr{A}_1(K)$ désigne l&rsquo;ensemble
+\mathscr{A}_1(K) \to K$ surjective, où $\mathscr{A}_1(K)$ désigne l&rsquo;ensemble
 des (classes d&rsquo;isomorphisme des) courbes elliptiques sur $K$.
 De plus, deux courbes elliptiques $E_1$ et $E_2$ possèdent le même invariant
 $j$ si et seulement s&rsquo;il existe une extension des corps $L/K$ telle que les
@@ -258,9 +260,9 @@ nécessairement lisse !).
 Soit $\mathfrak{p}$ un idéal premier de $\mathcal{O}_K$, nous considérons la
 fibre $\mathcal{E}_\mathfrak{p}$.
 Nous dirons que $E$ possède une <strong>bonne réduction</strong> modulo $\mathfrak{p}$ si
-$\mathcal{E}_\mathfrak{p}$ est lisse ; dans le cas contraire, nous dirons
-qu&rsquo;elle a une <strong>mauvaise réduction</strong>.</p>
-<p>Comme la fibre générique de $\mathcal{E}$ est lisse et $\mathcal{E}$ est
+$\mathcal{E}_\mathfrak{p}$ est lisse ; sinon, nous dirons qu&rsquo;elle a une
+<strong>mauvaise réduction</strong>.</p>
+<p>Puisque la fibre générique de $\mathcal{E}$ est lisse et $\mathcal{E}$ est
 régulier, les points de mauvaise réduction dans
 $\operatorname{Spec}(\mathcal{O}_K)$ forment une partie fermée et, par
 conséquent, sont finis.
@@ -281,9 +283,9 @@ une bonne réduction ou une réduction multiplicative en tout point de $S$.</p>
 <p>En général, la résolution des singularités des surfaces fonctionne toujours
 lorsque le schéma de base est <em>excellent</em>.
 De plus, pour un schéma de Dedekind général $S$ (que nous supposons connexe) et
-une variété abélienne $A_K$ sur le point générique de $S$, il existe un
-unique modèle de Néron $\mathcal{A}_S$ pour $A_K$ au-dessus de $S$ qui est
-de type fini et lisse (et satisfait la propriété de Néron).
+une variété abélienne $A_K$ sur le point générique de $S$, il n&rsquo;existe qu&rsquo;un
+seule modèle de Néron $\mathcal{A}_S$ pour $A_K$ sur de $S$ qui est de type
+fini et lisse (et satisfait la propriété de Néron).
 Au lieu de la trichotomie : réduction multiplicative, additive ou bonne, nous
 employons la décomposition d&rsquo;un groupe algébrique pour la fibre du modèle de
 Néron et obtenons une partie abélienne, multiplicative et unipotente.
@@ -294,8 +296,8 @@ manière de construire la fibre $(\mathcal{E}_0)_{\mathfrak{p}}$ : prenez une
 équation de Weierstrass à coefficients entiers pour $E_K$. Elle est munie
 d&rsquo;un discriminant entier $\Delta$ qui possède une valuation
 $\mathfrak{p}$-adique $\nu_{\mathfrak{p}}(\Delta) \ge 0$ positive.
-Nous dirons que l&rsquo;équation est <strong>minimale</strong> pour $\mathfrak{p}$ lorsque la
-valuation $\mathfrak{p}$-adique de son discriminant le soit ; nous
+Nous dirons que cela équation est <strong>minimale</strong> pour $\mathfrak{p}$ lorsque il
+est de même de la valuation $\mathfrak{p}$-adique de son discriminant ; nous
 désignerons par $\nu_{\mathfrak{p}}( \mathfrak{D}_{E/K} )$ sa valeur.
 Ainsi, l&rsquo;équation définissant un $\mathcal{O}_{K, \mathfrak{p}}$-modèle pour
 $E_K$ appelé le <strong>modèle de Weierstrass minimal</strong> $\mathcal{W}$, qui est
@@ -308,25 +310,26 @@ Donc, pour avoir la possibilité d&rsquo;atteindre l&rsquo;isomorphisme, nous po
 prendre le lieu lisse $\mathcal{W}_{\rm lisse}$ et le comparer avec la
 composante connexe de $(\mathcal{E}_0)_{\mathfrak{p}}$, et maintenant elles
 sont isomorphes.
-Cela est intéressant car la théorie abstraite de Néron entraîne que la fibre
-doit être un groupe algébrique commutatif, lisse, mais pas propre ; par
+Cela est intéressant puisque la théorie abstraite de Néron entraîne que la
+fibre doit être un groupe algébrique commutatif, lisse, mais pas propre ; par
 conséquent, il doit être le groupe additif ou un tore $T$ (géométriquement
 isomorphe au groupe multiplicatif).
 D&rsquo;autre part, l&rsquo;analyse concrète de $\mathcal{W}$ entraîne que les seules
 singularités se trouvent dans l&rsquo;intersection de $\mathcal{W} \subseteq
 \mathbb{P}^2$ avec la droite $y = 0$ et, par la suite, elle est soit une nœud
-(dans le cas de la réduction multiplicative) ou soit une cuspide (quand la
-réduction est additive).</p>
+(dans le cas de la réduction multiplicative) ou sinon, elle est soit une
+cuspide (lorsque la réduction est additive).</p>
 <p>Nous pouvons définir le nombre $\nu_{\mathfrak{p}}( \mathfrak{D}_{E/K} )$
 pour tous les points finis de mauvaise réduction de
 $\operatorname{Spec}(\mathcal{O}_K)$ et, par conséquent, définir le suivant
 idéal entier
 $$ \mathfrak{D}_{E/K} := \prod_{\mathfrak{p}} \mathfrak{p}^{
 \nu_{\mathfrak{p}}( \mathfrak{D}_{E/K} ) }, $$
-appelé le <strong>discriminant minimal (global)</strong> de $E_K$.
-En un sens, $\mathfrak{D}_{E/K}$ calcule toutes les mauvaises réductions en
-même temps et peut être presque tout idéal possible.
-Pour l&rsquo;anneau $\mathbb{Z}$, ce sera un unique nombre, mais les anneaux des
+où $\mathfrak{p}$ parcourt les idéaux maximals de $\mathcal{O}_K$.
+Ceci idéal est appelé le <strong>discriminant minimal (global)</strong> de $E_K$.</p>
+<p>En un sens, $\mathfrak{D}_{E/K}$ calcule toutes les mauvaises réductions en
+même temps, et peut être presque tout idéal possible.
+Pour l&rsquo;anneau $\mathbb{Z}$, ce ne sera qu&rsquo;un nombre, mais les anneaux des
 entiers $\mathcal{O}_K$ ne sont pas factoriels en général, et
 $\mathfrak{D}_{E/K}$ ne sera pas principal.
 Lorsque $\mathfrak{D}_{E/K}$ est effectivement principal, il existe une seule
@@ -466,11 +469,11 @@ possède un nombre infini de tours (c&rsquo;est-à-dire, des courbes elliptiques
 $E^\prime$ qui deviennent isomorphes après un certain changement de base).</p>
 <p>Et maintenant, que faire ? Eh bien, la conjecture de Safarevic (connue pour les
 courbes elliptiques) stipule qu&rsquo;une variété abélienne $ A_K $ sur $ K $
-possède un nombre fini de torcements qui sont semi-stables dans un ouvert fixé.
+possède un nombre fini de tordues qui sont semi-stables dans un ouvert fixé.
 Autrement dit, pour définir une hauteur adéquate pour les variétés abéliennes,
 il faut tenir compte de la mauvaise réduction et relier l&rsquo;hauteur des modules.
 Ici, <strong>l&rsquo;hauteur de Faltings</strong> $h_{\rm Fal}(E)$ est définie comme une
-certaine intersection arakelovienne du différentiel de Néron.
+certaine intersection arakelovienne du différentielle de Néron.
 La comparaison avec l&rsquo;hauteur des modules est, comme prévu, sans différence
 bornée, jusqu&rsquo;à une différence <em>logarithmique</em>.
 Cela est illustré par le théorème de Faltings-Silverman :
@@ -492,7 +495,7 @@ Ensuite, $h_{\rm geom}$ n&rsquo;est pas éloignée de l&rsquo;hauteur des module
 certaine manière, comme dans le théorème de Faltings-Silverman), mais $h_{\rm
 Fal}$ comporte toujours un « terme d&rsquo;erreur qui mesure la mauvaise réduction ».
 La fonction $h_{\rm Fal}$ possède la propriété de Northcott, et ainsi, une
-seule variété abélienne possède un nombre fini de torcements avec mauvaise
+seule variété abélienne possède un nombre fini de tordues avec mauvaise
 réduction pour un ensemble fini de nombres premiers fixé.
 Enfin, la conjecture de Mordell découle de la conjecture de Safarevic par des
 arguments connus antérieurs aux travaux de Faltings.</p>
@@ -539,7 +542,7 @@ structure de courbe lisse et projective sur $\mathbb{Q}$.
 Si l&rsquo;on considère un sous-groupe $\Gamma$ de $\operatorname{SL}_2(\mathbb{Z})$
 d&rsquo;indice fini, on peut obtenir d&rsquo;autres <strong>courbes modulaires</strong>, qui peuvent
 être identifiées comme des compactifications des espaces grossiers de modules.
-Parmi celles-ci, un groupe fuchsien fondamental est le <strong>sous-groupe spécial
+Parmi celles-ci, un groupe fuchsien essentiel est le <strong>sous-groupe spécial
 modulaire de niveau $N$</strong> :
 $$ \Gamma_0(N) = \left\{ \begin{bmatrix}a &amp; b \\ c &amp; d\end{bmatrix} \in
 \operatorname{SL}_2\mathbb{Z} : c \equiv 0 \pmod{N} \right\}, $$
@@ -550,8 +553,8 @@ défini sur $\mathbb{C}$ qui n&rsquo;est pas constant ; ces $\phi$ sont
 appelés <strong>paramétrisations modulaires</strong>.
 On peut prouver que de tels morphismes (s&rsquo;ils existent) sont définis sur un
 corps de nombres (possiblement plus grand que $ K $).
-Par la conjecture de Shimura-Taniyama (maintenant prouvée par Taylor, Wiles et
-d&rsquo;autres), chaque courbe elliptique sur $\mathbb{Q}$ <em>est</em> modulaire.
+Par la conjecture de Shimura-Taniyama-Weil (maintenant prouvée par Taylor,
+Wiles et d&rsquo;autres), chaque courbe elliptique sur $\mathbb{Q}$ <em>est</em> modulaire.
 Dans ce contexte, nous avons la conjecture suivante :</p>
 <blockquote>
 <p><strong>Conjecture du degré de Frey ($D_d$). &ndash;</strong>
