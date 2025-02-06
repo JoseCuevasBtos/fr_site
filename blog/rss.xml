@@ -339,10 +339,11 @@ idéal entier et « mesure la mauvaise réduction » :
 $$ \mathfrak{N}_{E/K} := \prod_{\mathfrak{p}} \mathfrak{p}^{
 f(E_K, \mathfrak{p}) }. $$
 En fait, cela représente la <em>composante modérée</em> de l&rsquo;exposant du conducteur,
-qui coïncide lorsque $\mathfrak{p} \nmid 6$ ; dans d&rsquo;autres cas, la
-définition appropriée inclut une <em>partie sauvage</em> qui est contrôlée d&rsquo;une
-certaine manière.
-La formule d&rsquo;Ogg implique que $\mathfrak{N}_{E/K} \mid \mathfrak{D}_{E/K}$.</p>
+qui coïncide lorsque $\mathfrak{p} \nmid 6$ (aussi appelé <em>conducteur
+d&rsquo;Artin</em>); dans d&rsquo;autres cas, la définition appropriée inclut une <em>part
+sauvage</em> qui est contrôlée d&rsquo;une certaine manière (aussi appelé <em>conducteur de
+Swan</em>).
+La formule de Ogg-Saito implique que $\mathfrak{N}_{E/K} \mid \mathfrak{D}_{E/K}$.</p>
 <p>En 1983, Lucien Szpiro a conjecturé ce qui suit :</p>
 <blockquote>
 <p><strong>Conjecture de Szpiro pour les corps des nombres. &ndash;</strong>
