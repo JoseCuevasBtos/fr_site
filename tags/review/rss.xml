@@ -134,8 +134,7 @@ Joseph Oesterlé entre 1985 et 1988 ; son énoncé est le suivant :</p>
 <p><strong>Conjecture $abc$ (forte). &ndash;</strong>
 Fixons une constante $\kappa &gt; 1$. Pour tout triplet $(a, b, c)$ des nombres
 premiers entre eux, avec $a + b = c$, la majoration suivante est satisfaite :
-$$ \max\{ |a|, |b|, |c| \} \ll_\kappa \operatorname{Rad}(abc)^\kappa. $$</p>
-</blockquote>
+$$ \max\{ |a|, |b|, |c| \} \ll_\kappa \operatorname{Rad}(abc)^\kappa. $$</p></blockquote>
 <p>Ci-dessus, $\operatorname{Rad}(n)$ désigne le produit des facteurs premiers $p
 \mid n$ avec multiplicité un ; il coïncide avec la définition du radiciel d&rsquo;un
 idéal dans l&rsquo;Algèbre commutative.
@@ -209,8 +208,7 @@ Soit $E$ une courbe elliptique sur $K$ et choisissons un point rationnel $o
 algébrique où $o$ est l&rsquo;élément neutre et commute avec le changement de base
 ; c&rsquo;est-à-dire, l&rsquo;opération du groupe est localement donnée par des équations
 à coefficients dans $K$ et, donnée une extension de corps $L/K$, l&rsquo;inclusion
-$E(K) \hookrightarrow E(L)$ est un homomorphisme de groupes.</p>
-</blockquote>
+$E(K) \hookrightarrow E(L)$ est un homomorphisme de groupes.</p></blockquote>
 <p>Ainsi, toute courbe elliptique est munie d&rsquo;une structure de groupe algébrique.
 On dira qu&rsquo;une <em>variété abélienne</em> $A$ sur un corps $K$ est un groupe
 algébrique intègre, lisse et projectif.
@@ -230,8 +228,7 @@ corps $K$. Les conditions suivantes sont équivalentes :</p>
 <li>$X$ admet une structure de variété abélienne et,</li>
 <li>$X$ est géométriquement intègre, lisse, possède au moins un point
 rationnel $o \in X(K)$ et a un genre un.</li>
-</ol>
-</blockquote>
+</ol></blockquote>
 <p>Aussi, il est facile de vérifier la :</p>
 <p><strong>Proposition. &ndash;</strong> L&rsquo;invariant $j$ définit une fonction $j \colon
 \mathscr{A}_1(K) \to K$ surjective, où $\mathscr{A}_1(K)$ désigne l&rsquo;ensemble
@@ -352,8 +349,7 @@ La formule de Ogg-Saito implique que $\mathfrak{N}_{E/K} \mid \mathfrak{D}_{E/K}
 Soit $\epsilon &gt; 0$. Pour toutes les courbes elliptiques $E_K$ sur un corps
 des nombres fixé $K$, on aurait la moyenne
 $$ \mathbf{N}\mathfrak{D} \ll_\epsilon \mathbf{N}(\mathfrak{N}_{E/K})^{6 +
-\epsilon}. $$</p>
-</blockquote>
+\epsilon}. $$</p></blockquote>
 <p>Toutefois, par définition, le conducteur peut être considéré comme le cadre du
 radical de $\mathfrak{D}_{E/K}$ ; ainsi, toute comparaison entre les deux
 évoque la conjecture $abc$. En fait :</p>
@@ -375,8 +371,7 @@ existe un nombre réel $\kappa &gt; 0$ avec la propriété que, pour toute courb
 elliptique $E_\mathbb{Q}$ sur $\mathbb{Q}$ mise en équation de Weierstrass
 minimale, on a la moyenne
 $$ \max\{ |\Delta|, |d_4|^3 \} \le \kappa N_{E, K}^{6+\epsilon}. $$</li>
-</ol>
-</blockquote>
+</ol></blockquote>
 <p>Il est significatif de chercher des généralisations de la conjecture $abc$
 pour les corps des nombres, et la conjecture de Szpiro y parvient.</p>
 <h2 id="formes-logarithmiques">Formes logarithmiques</h2>
@@ -442,8 +437,7 @@ Un résultat classique est le suivant :</p>
 <p><strong>Théorème (propriété de Northcott). &ndash;</strong>
 Soit $B$ un nombre réel et $d$ un entier positif, il y a au plus un
 nombre fini de points dans l&rsquo;espace projectif avec hauteur bornée par $ B $
-et degré $\le d$.</p>
-</blockquote>
+et degré $\le d$.</p></blockquote>
 <p>Ce fait, d&rsquo;apparence innocente, a été clé dans la démonstration du théorème de
 Mordell-Weil : le groupe des points rationnels $A(K)$ d&rsquo;une variété abélienne
 $A$ sur un corps de nombres $K$ est de type fini.</p>
@@ -505,8 +499,7 @@ En 1989, Frey a conjecturé l&rsquo;énoncé suivant :</p>
 <p><strong>Conjecture de Frey sur les hauteurs ($H$). &ndash;</strong>
 Soit $K$ un corps de nombres. Pour toute courbe elliptique $E_K$ sur
 $K$, on a la relation :
-$$ h_{\rm Fal}(E_K) \ll \deg(\mathfrak{N}_E). $$</p>
-</blockquote>
+$$ h_{\rm Fal}(E_K) \ll \deg(\mathfrak{N}_E). $$</p></blockquote>
 <p>La définition du degré établit un lien entre le logarithme de la norme
 $\textbf{N} \mathfrak{N}_E$ et l&rsquo;hauteur de Faltings, qui est le logarithme
 d&rsquo;une intégrale correspondant à la complexité d&rsquo;une courbe elliptique. Le
@@ -555,8 +548,7 @@ Soit $S \subseteq M_\mathbb{Q}$ un ensemble fini fixé de places avec $\infty
 \in S$ et soit $\epsilon &gt; 0$ un nombre réel fixé.<br>
 Toute courbe elliptique $E$ sur $\mathbb{Q}$ semi-stable en dehors de $S$
 possède une paramétrisation modulaire $\phi$ telle que
-$$ \deg\phi \ll_\epsilon \prod_{\ell\mid N_E} \ell^{d+\epsilon}. $$</p>
-</blockquote>
+$$ \deg\phi \ll_\epsilon \prod_{\ell\mid N_E} \ell^{d+\epsilon}. $$</p></blockquote>
 <p>La conjecture du degré de Frey entraîne sa conjecture sur les hauteurs.</p>
 <h2 id="références">Références</h2>
 <p>Pour les bases sur les courbes elliptiques, nous recommandons le livre de
